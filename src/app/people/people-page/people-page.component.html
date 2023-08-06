@@ -1,0 +1,2 @@
+<div class="user-message" [style.font-size.px]="isErrorMessage? 'error' : ''">{{userMessage}}</div>
+<app-people-list [people]="(people$ | async)!"></app-people-list>

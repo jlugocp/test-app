@@ -1,0 +1,14 @@
+<div class="person-card">
+    <div class="title">
+        <div class="label">
+            Title: 
+        </div>
+        <div class="name">
+            {{person.name}}
+        </div>
+    </div>
+    <app-detail label="address" [value]="person.address.street"></app-detail>
+    <app-detail                 [value]="person.address.city"></app-detail>
+    <app-detail                 [value]="person.address.zipcode"></app-detail>
+    <button type="button" class="delete btn btn-secondary" (click)="remove.emit(person.id)"><i class="fa-regular fa-trash-can"></i> Delete</button>
+</div>

@@ -1,0 +1,10 @@
+.label {
+    width: 75px;
+    display: inline-block;
+    color: #61677a;
+}
+
+.value {
+    display: inline-block;
+    color: #272829;
+}

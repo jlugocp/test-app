@@ -1,0 +1,15 @@
+.top-bar {
+    height: 60px;
+    background-color: grey;
+    padding: 10px;
+    background-color: #D8D9DA;
+}
+
+.menu {
+    float: right;
+}
+
+.app-name {
+    font-size: 24px;
+    font-weight: bold;
+}

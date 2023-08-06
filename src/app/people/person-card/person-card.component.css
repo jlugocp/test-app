@@ -1,0 +1,29 @@
+.person-card {
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    width: 350px;
+    height: 185px;
+    text-align: left;
+}
+
+.label {
+    width: 75px;
+    display: inline-block;
+    color: #61677a;
+}
+
+.name {
+    display: inline-block;
+    color: #272829;
+    font-size: 18px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.delete {
+    margin-top: 15px;
+    float: right;
+}
