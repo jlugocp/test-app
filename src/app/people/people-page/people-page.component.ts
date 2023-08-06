@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Person } from 'src/app/models/person.model';
 import { PeopleService } from 'src/app/services/people.service';
 import { CookieService } from 'ngx-cookie-service';
 import { Store } from '@ngrx/store';

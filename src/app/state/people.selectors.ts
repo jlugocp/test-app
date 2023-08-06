@@ -11,7 +11,6 @@ export const selectPeopleCollection = createSelector(
   selectPeople,
   selectCollectionState,
   (people, collection) => {
-    console.log('X.map => ', collection);
     return collection.map((id) => people.find((person) => person?.id === id)!);
   }
 );

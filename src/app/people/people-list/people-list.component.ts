@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Person } from 'src/app/models/person.model';
 import { Store } from '@ngrx/store';
 import { PeopleApiActions } from 'src/app/state/people.actions';

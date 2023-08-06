@@ -8,7 +8,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { BlankComponent } from './blank/blank.component';
 import { StoreModule } from '@ngrx/store';
 import { peopleReducer } from './state/people.reducer';
-import { collectionReducer } from './state/collection.reducer'; 
 
 @NgModule({
   declarations: [
@@ -20,7 +19,7 @@ import { collectionReducer } from './state/collection.reducer';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    StoreModule.forRoot({ people: peopleReducer, collection: collectionReducer })
+    StoreModule.forRoot({ people: peopleReducer/*, collection: collectionReducer*/ })
   ],
   providers: [],
   bootstrap: [AppComponent]

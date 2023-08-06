@@ -16,12 +16,4 @@ export class PersonCardComponent {
 
   @Input()
   person = new Person();
-
-  /*@Input()
-  index = -1;*/
-
-  /*deleteUser() {
-    console.log('deleting index ', this.index);
-    this.remove.emit(this.person.id);
-  }*/
 }
