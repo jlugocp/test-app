@@ -25,3 +25,24 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Additional Information
+
+Created with Node 18.17.0
+
+Run `npm i` then `ng serve` to run the project
+
+The color palette [Palette](https://colorhunt.co/palette/27282961677ad8d9dafff6e0)
+
+**Next Steps ...**
+
+Consider how we want to persist the people data
+
+**Actions**
+* Retrieved People List
+* Delete Person
+
+**Documentation**
+
+![Component Diagram](./test-app.drawio.png)
